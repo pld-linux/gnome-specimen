@@ -14,8 +14,9 @@ BuildRequires:	intltool >= 0.36.2
 BuildRequires:	pkgconfig
 BuildRequires:	python-devel >= 1:2.5
 BuildRequires:	python-gnome-devel >= 2.6.0
-Requires(post,preun):	GConf2
+BuildRequires:	rpm-pythonprov
 Requires(post,postun):	desktop-file-utils
+Requires(post,preun):	GConf2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
