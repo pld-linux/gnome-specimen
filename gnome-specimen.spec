@@ -1,7 +1,7 @@
 Summary:	GNOME Specimen - a tool for previewing and comparing fonts
 Name:		gnome-specimen
 Version:	0.4
-Release:	3
+Release:	4
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://uwstopia.nl/geek/projects/gnome-specimen/releases/%{name}-%{version}.tar.gz
