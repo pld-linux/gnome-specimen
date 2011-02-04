@@ -1,7 +1,7 @@
 Summary:	GNOME Specimen - a tool for previewing and comparing fonts
 Name:		gnome-specimen
 Version:	0.4
-Release:	4
+Release:	5
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://uwstopia.nl/geek/projects/gnome-specimen/releases/%{name}-%{version}.tar.gz
@@ -16,6 +16,8 @@ BuildRequires:	python-devel >= 1:2.5
 BuildRequires:	python-gnome-devel >= 2.6.0
 BuildRequires:	rpm-pythonprov
 Requires(post,postun):	desktop-file-utils
+Requires(post,postun):	gtk-update-icon-cache
+Requires(post,postun):	hicolor-icon-theme
 Requires(post,preun):	GConf2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
