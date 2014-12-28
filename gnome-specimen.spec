@@ -9,7 +9,7 @@ Source0:	http://uwstopia.nl/geek/projects/gnome-specimen/releases/%{name}-%{vers
 BuildRequires:	GConf2-devel
 BuildRequires:	autoconf >= 2.52
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	intltool >= 0.36.2
 BuildRequires:	pkgconfig
 BuildRequires:	python-devel >= 1:2.5
